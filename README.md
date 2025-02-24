@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Assignment: Exploring Front-End Development Components
 
-## Getting Started
+### Scenario
 
-First, run the development server:
+New Generation High School is a new school that wants to create a student portal. The administrator of the web application wants to be able to see a list of students and modify the student list to add new students.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Equipment and Materials
+For this assignment, you will need:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+•	Node.js
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+•	Next.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Instructions
+1.	Working in groups, as indicated by your instructor, review the scenario and the Marking Criteria section below.
+2.	Install Node.js.
+3.	Create a new Next.js project.
+4.	Create a list of students in JSON format that contains data for five students.
+5.	Create a single page web application that includes the following:
 
-## Learn More
+•	A custom static navbar
 
-To learn more about Next.js, take a look at the following resources:
+•	A list of students
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+•	A footer that includes the school information
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+•	Student information that contains:
 
-## Deploy on Vercel
+   o	Student’s first name and last name
+  
+   o	Student’s date of birth
+  
+   o	Student’s current grade
+  
+•	A form to add new students
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Notes: 
+•	The components must contain data validation.
+•	You must use custom components for each of the elements mentioned above. Feel free to create any other components as necessary. Choose whether a component will be a client and server component.
+7.	Deploy the website.
+8.	Submit the following to Brightspace by the posted due date:
+•	A link to your GitHub repository
+•	A link to your deployed website
+•	Remove node modules, zip your project and upload to bright space.
+Note: Only one submission is required per group.
